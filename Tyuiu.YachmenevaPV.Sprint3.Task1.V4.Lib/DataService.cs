@@ -9,7 +9,7 @@ namespace Tyuiu.YachmenevaPV.Sprint3.Task1.V4.Lib
             int k = 1;
             while (k <= 10)
             {
-                sum = sum + Math.Pow((1 / k), 2);
+                sum = sum + Math.Pow((1.0 / k), 2);
                 k++;
             }
             return Math.Round(sum, 3);
